@@ -12,6 +12,10 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- css style sheet  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- fonts awesome tag  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="container">
@@ -103,16 +107,245 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon slider-btn" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon slider-btn" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </header>
+    <main>
+        <!-- Feature bike section  -->
+        <section class="my-5 text-center">
+            <h1>Fetured Bikes In This Year</h1>
+            <p class="text-danger">Best bike collection</p>
+            <hr class="w-25 mx-auto border-danger">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 mt-4">
+                <div class="col">
+                    <a href="#"><img class="w-100" src="images/feature-bike.jpg" alt=""></a>
+                </div>
+                <div class="col">
+                    <a href="#"><img class="w-75" src="images/feature-bike.jpg" alt=""></a>
+                </div>
+                <div class="col">
+                    <a href="#"><img class="w-100" src="images/feature-bike.jpg" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <!-- New Arival section  -->
+        <section class="my-5 bg-info bg-opacity-25 rounded">
+            <h1 class="text-center pt-3">New Arival</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 p-5">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Yamaha R15 Version 7</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-danger" type="submit">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Suzuki XSR Version 2.0</h5>
+                            <p class="card-text">Yamaha XSR 155 is priced at Tk 545000 while Suzuki Gixxer SF Single
+                                Disc is the cheaper one priced at Tk 239950. </p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-danger" type="submit">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bajaj Pulsar 160cc Naked</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-danger" type="submit">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- happy clients says  -->
+        <section class="my-5">
+            <h1 class="text-center pb-3">Happy <span class="text-warning text-opacity-75">Clients says</span></h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="images/user-1.png" class="card-img-top w-50 mx-auto mt-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamza junior</h5>
+                            <p class="card-text">Its look like a moto gp race bike, But i am using in city roads only,
+                                Getting 52/ kmpl, Smooth bike, Rider posture is comfortable to drive long.Nice abs
+                                breake.Etc.</p>
+                        </div>
+                        <p class="fw-semibold">Ratings: 5.0
+                            <span class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="images/user-2.png" class="card-img-top w-50 mx-auto mt-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Title Mostofa</h5>
+                            <p class="card-text">I really excited to purchase this soon.Because this specifications are
+                                too good and good mileage, With reasonable price. Want this as soon as posible</p>
+                        </div>
+                        <p class="fw-semibold">Ratings: 4.0
+                            <img class="svg-rating" src="images/icons/star-solid.svg" alt="">
+                            <img class="svg-rating" src="images/icons/star-solid.svg" alt="">
+                            <img class="svg-rating" src="images/icons/star-solid.svg" alt="">
+                            <img class="svg-rating" src="images/icons/star-solid.svg" alt="">
+                            <img class="svg-rating" src="images/icons/star-regular.svg" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="images/user-3.png" class="card-img-top w-50 mx-auto mt-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Abdul Jabbar</h5>
+                            <p class="card-text">The bike is comparatively cheaper for the same specs in different
+                                bikes.Additionally the mileage is decent and the bike is quite smooth.</p>
+                        </div>
+                        <p><span class="fw-semibold">Ratings: 4.5 </span>
+                            <span class="text-warning d-inline">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Frequently Asked Question  -->
+        <section class="my-5 bg-secondary-subtle rounded p-3">
+            <h1 class="text-center">Frequently Asked <span class="text-warning text-opacity-75">Questions</span></h1>
+            <div class="row row-cols-1 row-cols-lg-2 g-4 mt-5">
+                <div class="col">
+                    <img src="images/faq.png" alt="">
+                </div>
+                <div class="col d-flex justify-content-center align-items-center">
+                    <div>
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        My height is 5 feet 5 inch is Suzuki Gixxer comfortable for me?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        Suzuki Gixxer features a saddle height of 795 mm. A person with an average
+                                        height of
+                                        5.5 ft can ride the bike with good comfort. Moreover, you can have a test ride
+                                        of
+                                        the bike for a better idea of comfort and ride quality by visiting the nearest
+                                        dealer in your city. You can click on the following link to see the details of
+                                        the
+                                        nearest dealership and select your city accordingly dealarship dealers.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        What are the engine specifications of the Yamaha R15S?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        Powering the R15 S is a 155cc, liquid-cooled, single-cylinder motor equipped
+                                        with
+                                        Variable Valve Actuation (VVA). It produces 18.6PS and 14.1Nm and is paired with
+                                        a
+                                        6-speed gearbox with a slip-and-assist clutch.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                        What is the price in Secunderabad and is it available ?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        Yamaha YZF R15 V3 is priced from INR 1.49 - 1.57 Lakh (Showroom Price:
+                                        Secunderabad). Follow the link for an approximate on-road price in Secunderabad.
+                                        For
+                                        the availability and waiting period, we would suggest you to please connect with
+                                        the
+                                        nearest authorized dealer in your city as it depends on their stock book. Follow
+                                        the
+                                        link and select your desired city for dealership details.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseFour">
+                                        Compare with Suzuki sf 155cc and Xtreme 160S which one is better..
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body">
+                                        It would be too early to give a verdict as Hero Xtreme 160s is not launched yet,
+                                        we
+                                        would suggest you to stay tuned for the updates. On the other hand, With its
+                                        premium
+                                        quality and fit and finish, the Suzuki Gixxer is an undoubtedly impressive
+                                        motorcycle. Suzuki Gixxer SF is powered by a 155 cc engine. This Gixxer SF
+                                        engine
+                                        generates a power of 13.6 PS @ 8000 rpm and a torque of 13.8 Nm @ 6000 rpm.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
 
+    </footer>
 
 
 
